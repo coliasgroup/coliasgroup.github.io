@@ -71,7 +71,6 @@ td {
 }
 
 #tell-text {
-    padding-top: 1em;
     padding-left: 1em;
 }
 
@@ -82,8 +81,13 @@ td {
     font-family: "Xlectrolize";
 }
 
-#tell-text h4:first-child {
-    margin-top: 0;
+@media all and (min-width: 561px) {
+    #tell-text {
+        padding-top: 1em;
+    }
+    #tell-text h4:first-child {
+        margin-top: 0;
+    }
 }
 
 #tell-text p {
